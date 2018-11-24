@@ -1,0 +1,7 @@
+.index .navbar-brand {
+    text-decoration-color: white;
+    color: transparent;
+    background-image: url(../img/logo.png);
+    background-size: 100%;
+    padding: 23px;
+}
