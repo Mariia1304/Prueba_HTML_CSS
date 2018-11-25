@@ -5,3 +5,21 @@
     background-size: 100%;
     padding: 23px;
 }
+.index .navbar-default .navbar-collapse, .index .navbar-default .navbar-form {
+    background-color: white;
+}
+.index .navbar-header {
+    background-color: white;
+}
+.index .panel-default {
+    border-color: transparent;
+}
+.index .thumbnail img {
+    border-radius: 5px;
+}
+.index .thumbnail {
+    border-color: transparent;
+}
+.index .thumbnail p, .index .thumbnail h3 {
+    text-align: center;
+}
