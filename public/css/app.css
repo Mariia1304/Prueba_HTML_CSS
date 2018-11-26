@@ -50,6 +50,15 @@ input[type=submit]:hover {
 .formulario .container {
     border-radius: 5px;
     background-color: #f2f2f2;
-    padding: 20px;
+    padding-left: 13px;
+    padding-right: 13px;
 }
-/* Clear floats after the columns */
+.formulario h3 {
+    text-align: center;
+}
+@media screen and (max-width: 600px) {
+    input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
