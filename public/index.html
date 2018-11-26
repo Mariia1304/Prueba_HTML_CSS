@@ -40,7 +40,9 @@
                         </span>
                     </button>
                     <a class="navbar-brand" href="#">
-                        brand
+                        <p>
+                            brand
+                        </p>
                     </a>
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -74,11 +76,6 @@
 <div class="carousel slide " data-ride="carousel" id="myCarousel">
      Indicators -->
         <div class="container" style="margin-top: 10vh;">
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-2">
-                    <img alt="" class="img-responsive" src="img/banner.png"/>
-                </div>
-            </div>
             <div class="carousel slide " data-ride="carousel" id="myCarousel">
                 <ol class="carousel-indicators">
                     <li class="active" data-slide-to="0" data-target="#myCarousel">
@@ -148,7 +145,12 @@
                     </span>
                 </a>
             </div>
-            <div class="row" style="margin-top: 8vh; ">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-2" style="margin-top: 20px">
+                    <img alt="" class="img-responsive" src="img/banner.png"/>
+                </div>
+            </div>
+            <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-4">
                     <div class="thumbnail">
                         <img alt="" src="img/donatus.png"/>
@@ -245,8 +247,8 @@
             Formulario de contacto. -->
             <div class="panel panel-default">
                 <div class="panel-body">
-                    <div class="row">
-                        <div class="col-md-4 col-md-offset-2 col-sm-12 col-xs-12">
+                    <div class="row" style="clear: both;">
+                        <div class="col-md-3 col-sm-12 col-xs-12">
                             <p>
                                 Dirección:
                             Tupungato 10070 Vitacura, Santiago de Chile
@@ -273,12 +275,28 @@
                             </p>
                             <!--formulario aqui-->
                         </div>
-                        <div class="col-md-4 col-sm-12 col-xs-12">
-                            <iframe allowfullscreen="" frameborder="0" height="200" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331.509134447668!2d-70.5393396848024!3d-33.38387898079302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c952b6e45c13%3A0xe20a79d839401910!2sTupungato+10070%2C+Vitacura%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1sru!2scl!4v1543111084422" style="border:0" width="400">
+                        <div class="col-md-3 col-sm-12 col-xs-12">
+                            <iframe allowfullscreen="" frameborder="0" height="250" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331.509134447668!2d-70.5393396848024!3d-33.38387898079302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c952b6e45c13%3A0xe20a79d839401910!2sTupungato+10070%2C+Vitacura%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1sru!2scl!4v1543111084422" style="border:0" width="400">
                             </iframe>
                         </div>
+                        <div class="formulario col-md-4 col-md-offset-2 col-xs-12">
+                            <form action="/action_page.php">
+                                <label for="email">
+                                    Email
+                                </label>
+                                <input id="name" placeholder="Tu email.." type="text">
+                                    <label for="text">
+                                        Mensaje
+                                    </label>
+                                    <input placeholder="Tu mensaje.." type="text">
+                                        <input type="submit" value="Submit">
+                                        </input>
+                                    </input>
+                                </input>
+                            </form>
+                        </div>
                     </div>
-                    <div class="formulario">
+                    <!--<div class="formulario">
                         <div class="row">
                             <div class="col-sm-12 col-xs-12">
                                 <h3>
@@ -334,12 +352,11 @@
                                     </div>
                                 </form>
                             </div>
-                        </div>
-                    </div>
+                        </div>-->
                 </div>
-                <div class="panel-footer">
-                    Panel footer
-                </div>
+            </div>
+            <div class="panel-footer">
+                Panel footer
             </div>
         </div>
     </body>

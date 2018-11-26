@@ -1,8 +1,14 @@
+body {
+    background-image: url();
+}
 .navbar-brand {
     text-decoration-color: white;
     background-image: url(../img/logo.png);
     background-size: 100%;
     padding: 23px;
+}
+.navbar-brand p {
+    color: transparent;
 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     background-color: white;
@@ -26,39 +32,95 @@
 
 input[type=text], select {
     width: 100%;
-    padding: 12px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
-    resize: vertical;
-}
-label {
-    padding: 12px 12px 12px 0;
-    display: inline-block;
+    box-sizing: border-box;
 }
 input[type=submit] {
+    width: 100%;
     background-color: #4CAF50;
     color: white;
-    padding: 12px 20px;
+    padding: 14px 20px;
+    margin: 8px 0;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    float: right;
 }
 input[type=submit]:hover {
     background-color: #45a049;
 }
-.formulario .container {
+.formulario {
     border-radius: 5px;
     background-color: #f2f2f2;
-    padding-left: 13px;
-    padding-right: 13px;
+    padding: 20px;
 }
-.formulario h3 {
+/*blog*/
+
+.noticias body {
+    font-family: Arial;
+    padding: 20px;
+    background: #f1f1f1;
+}
+/* Header/Blog Title */
+
+.noticias .header {
+    padding: 30px;
+    font-size: 40px;
     text-align: center;
+    background: white;
 }
-@media screen and (max-width: 600px) {
-    input[type=submit] {
+/* Create two unequal columns that floats next to each other */
+
+/* Left column */
+
+.noticias .leftcolumn {
+    float: left;
+    width: 75%;
+}
+/* Right column */
+
+.noticias .rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+/* Fake image */
+
+.noticias .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+/* Add a card effect for articles */
+
+.noticias .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+/* Clear floats after the columns */
+
+.noticias .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Footer */
+
+.noticias .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 800px) {
+    .noticias .leftcolumn, .noticias .rightcolumn {
         width: 100%;
-        margin-top: 0;
+        padding: 0;
     }
 }
