@@ -1,17 +1,16 @@
-.index .navbar-brand {
+.navbar-brand {
     text-decoration-color: white;
-    color: transparent;
     background-image: url(../img/logo.png);
     background-size: 100%;
     padding: 23px;
 }
-.index .navbar-default .navbar-collapse, .index .navbar-default .navbar-form {
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
     background-color: white;
 }
-.index .navbar-header {
+.navbar-header {
     background-color: white;
 }
-.index .panel-default {
+.panel-default {
     border-color: transparent;
 }
 .index .thumbnail img {
@@ -23,3 +22,34 @@
 .index .thumbnail p, .index .thumbnail h3 {
     text-align: center;
 }
+/*forma de contacto!*/
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+.formulario .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+/* Clear floats after the columns */
