@@ -91,6 +91,9 @@ input[type=submit]:hover {
 body {
     font-family: 'Open Sans', sans-serif;
 }
+.panel-footer {
+    text-align: center;
+}
 #somos {
     border: solid 2px #eee;
     border-radius: 6px;
