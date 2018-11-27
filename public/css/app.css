@@ -1,6 +1,3 @@
-body {
-    background-image: url();
-}
 .navbar-brand {
     text-decoration-color: white;
     background-image: url(../img/logo.png);
@@ -27,10 +24,27 @@ body {
     border-radius: 5px;
 }
 .index .thumbnail {
+    box-shadow: none;
     border-color: transparent;
 }
 .index .thumbnail p, .index .thumbnail h3 {
     text-align: center;
+}
+.index .thumbnail h3 {
+    color: #4667AC;
+}
+.main a {
+    text-decoration: none;
+}
+@media only screen and (max-width: 470px) {
+    .item h2 {
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width: 471px) {
+    .item h2 {
+        font-size: 40px;
+    }
 }
 /*forma de contacto!*/
 
