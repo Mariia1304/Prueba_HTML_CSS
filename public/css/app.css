@@ -74,6 +74,28 @@ input[type=submit]:hover {
 .noticias .header h2 {
     margin-top: 60px;
 }
-.nosotros .somos p {
-    margin-top: 200px;
+.nosotros {
+    font-family: 'Open Sans', sans-serif;
+}
+#somos {
+    border: solid 2px #eee;
+    border-radius: 6px;
+    padding: 0 20px 10px 20px;
+    margin-top: 80px;
+}
+#somos h2, #organizacion h3, #consejo h3, #comite h3, #directorio h3, #administracion h3, #voluntario h3 {
+    text-align: center;
+    color: #4667AC;
+}
+#consejo p {
+    text-align: center;
+}
+#comite p {
+    text-align: center;
+}
+#directorio p {
+    text-align: center;
+}
+#administracion p {
+    text-align: center;
 }
