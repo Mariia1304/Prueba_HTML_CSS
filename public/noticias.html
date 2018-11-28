@@ -219,7 +219,7 @@
             Formulario de contacto. -->
             <div class="panel panel-default" style="margin-top: 30px;">
                 <div class="panel-body">
-                    <div class="row" style="box-sizing: border-box;">
+                    <div class="row">
                         <div class="col-md-3 col-xs-12">
                             <p>
                                 Dirección:
@@ -246,11 +246,13 @@
                                 </a>
                             </p>
                         </div>
-                        <div class="col-md-3 col-xs-12">
-                            <iframe allowfullscreen="" frameborder="0" height="200" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331.509134447668!2d-70.5393396848024!3d-33.38387898079302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c952b6e45c13%3A0xe20a79d839401910!2sTupungato+10070%2C+Vitacura%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1sru!2scl!4v1543111084422" style="border:0; margin-bottom: 10px;" width="390">
-                            </iframe>
+                        <div class="col-md-5 col-xs-12">
+                            <div class="embed-responsive embed-responsive-4by3">
+                                <iframe allowfullscreen="" class="embed-responsive-item" frameborder="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331.509134447668!2d-70.5393396848024!3d-33.38387898079302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c952b6e45c13%3A0xe20a79d839401910!2sTupungato+10070%2C+Vitacura%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1sru!2scl!4v1543111084422" style="border:0;">
+                                </iframe>
+                            </div>
                         </div>
-                        <div class="formulario col-md-4 col-md-offset-2 col-xs-12">
+                        <div class="formulario col-md-4 col-xs-12" style="  margin-top: 3px;">
                             <form action="/action_page.php">
                                 <label for="name">
                                     Name
@@ -260,7 +262,7 @@
                                     Mensaje
                                 </label>
                                 <input placeholder="Tu mensaje.." type="text"/>
-                                <input style="background-color: #4667AC;" type="submit" value="Enviar"/>
+                                <input id="submit" type="submit" value="Enviar"/>
                             </form>
                         </div>
                     </div>

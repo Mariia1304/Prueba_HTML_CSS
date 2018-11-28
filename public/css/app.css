@@ -104,14 +104,6 @@ input[type=submit]:hover {
 }
 /*iframe*/
 
-/*@media only screen and (min-width: 335px) and (max-width: 479px) {
-    .iframe {
-        width: 50%;
-    }
-}*/
-
-/*por que no funciona?*/
-
 /*blog*/
 
 .col-md-8 .article {
