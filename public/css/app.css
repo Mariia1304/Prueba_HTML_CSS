@@ -102,8 +102,6 @@ input[type=submit]:hover {
         width: 95%;
     }
 }
-/*iframe*/
-
 /*blog*/
 
 .col-md-8 .article {
@@ -138,7 +136,35 @@ input[type=submit]:hover {
     width: 50%;
 }
 #redes img {
-    width: 70%;
+    width: 50%;
+}
+@media only screen and (max-width: 350px) {
+    #redes img {
+        width: 70%;
+    }
+    #redes {
+        width: 70%;
+    }
+}
+@media only screen and (min-width: 351px) and (max-width:400px) {
+    #redes {
+        width: 75%;
+    }
+}
+@media only screen and (min-width: 401px) and (max-width:479px) {
+    #redes {
+        width: 78%;
+    }
+}
+@media only screen and (min-width: 480px) and (max-width:767px) {
+    #redes {
+        width: 55%;
+    }
+}
+@media only screen and (min-width: 768px) {
+    #redes {
+        width: 35%;
+    }
 }
 .panel-footer {
     text-align: center;
