@@ -13,10 +13,7 @@ body {
 .navbar-brand p {
     color: transparent;
 }
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {
-    background-color: white;
-}
-.navbar-header {
+.navbar-default .navbar-collapse, .navbar-default .navbar-form, .navbar-header {
     background-color: white;
 }
 .panel-default {
@@ -25,6 +22,7 @@ body {
 }
 .panel-body {
     padding: 0;
+    margin-top: 30px;
 }
 .index .thumbnail img {
     border-radius: 5px;
@@ -76,6 +74,9 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #45a049;
 }
+#submit {
+    background-color: #4667AC;
+}
 .formulario {
     border-radius: 5px;
     background-color: #f2f2f2;
@@ -83,19 +84,34 @@ input[type=submit]:hover {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .formulario {
-        width: 60%;
+        width: 70%;
     }
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
     .formulario {
-        width: 70%;
+        width: 75%;
     }
 }
-@media only screen and (max-width: 479px) {
+@media only screen (min-width: 401px) and (max-width: 479px) {
     .formulario {
-        width: 100%;
+        width: 85%;
     }
 }
+@media only screen and (min-width: 335px) and (max-width: 400px) {
+    .formulario {
+        width: 95%;
+    }
+}
+/*iframe*/
+
+/*@media only screen and (min-width: 335px) and (max-width: 479px) {
+    .iframe {
+        width: 50%;
+    }
+}*/
+
+/*por que no funciona?*/
+
 /*blog*/
 
 .col-md-8 .article {
@@ -124,6 +140,14 @@ input[type=submit]:hover {
 .article h2 {
     color: #4667AC;
 }
+/*redes sociales*/
+
+#redes {
+    width: 50%;
+}
+#redes img {
+    width: 70%;
+}
 .panel-footer {
     text-align: center;
 }
@@ -138,15 +162,9 @@ input[type=submit]:hover {
     text-align: center;
     color: #4667AC;
 }
-#consejo p {
+#consejo p, #comite p, #directorio p, #administracion p {
     text-align: center;
 }
-#comite p {
-    text-align: center;
-}
-#directorio p {
-    text-align: center;
-}
-#administracion p {
-    text-align: center;
+#voluntario ul {
+    list-style-type: square;
 }
