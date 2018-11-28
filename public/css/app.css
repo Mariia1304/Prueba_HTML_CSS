@@ -7,6 +7,18 @@ body {
     width: 100%;
     object-fit: cover;
 }
+@media only screen and (max-width: 470px) {
+    .item h2 {
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width: 471px) {
+    .item h2 {
+        font-size: 40px;
+    }
+}
+/*Navbar*/
+
 #Home, #Nosotros, #Noticias {
     color: #4667AC;
 }
@@ -22,6 +34,11 @@ body {
 .navbar-default .navbar-collapse, .navbar-default .navbar-form, .navbar-header {
     background-color: white;
 }
+/*Footer*/
+
+.panel-footer {
+    text-align: center;
+}
 .panel-default {
     border: none;
     box-shadow: none;
@@ -30,6 +47,8 @@ body {
     padding: 0;
     margin-top: 30px;
 }
+/*index main*/
+
 .index .thumbnail img {
     border-radius: 5px;
 }
@@ -45,16 +64,6 @@ body {
 }
 .main a {
     text-decoration: none;
-}
-@media only screen and (max-width: 470px) {
-    .item h2 {
-        font-size: 20px;
-    }
-}
-@media only screen and (min-width: 471px) {
-    .item h2 {
-        font-size: 40px;
-    }
 }
 /*forma de contacto!*/
 
@@ -108,7 +117,7 @@ input[type=submit]:hover {
         width: 100%;
     }
 }
-/*blog*/
+/*blog noticias*/
 
 .col-md-8 .article {
     border-right: solid 3px #eee;
@@ -136,7 +145,7 @@ input[type=submit]:hover {
 .article h2 {
     color: #4667AC;
 }
-/*redes sociales*/
+/*redes sociales (dentro de blog)*/
 
 #redes {
     width: 50%;
@@ -172,9 +181,8 @@ input[type=submit]:hover {
         width: 35%;
     }
 }
-.panel-footer {
-    text-align: center;
-}
+/*nosotros*/
+
 #somos {
     background-color: #f9f9f9;
     border: solid 1px #ddd;
