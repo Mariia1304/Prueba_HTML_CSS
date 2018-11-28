@@ -1,3 +1,6 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
 #Home, #Nosotros, #Noticias {
     color: #4667AC;
 }
@@ -78,21 +81,48 @@ input[type=submit]:hover {
     background-color: #f2f2f2;
     padding: 20px;
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .formulario {
+        width: 60%;
+    }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .formulario {
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 479px) {
+    .formulario {
+        width: 100%;
+    }
+}
 /*blog*/
 
 .col-md-8 .article {
     border-right: solid 3px #eee;
     padding-right: 25px;
 }
+@media only screen and (max-width: 768px) {
+    .col-md-8 .article {
+        border-right: none;
+    }
+}
 #voluntariado {
     border-bottom: solid 3px #eee;
     padding-bottom: 20px;
 }
-.noticias .header h2 {
+@media only screen and (max-width: 768px) {
+    #voluntariado {
+        border-bottom: none;
+    }
+}
+.noticias .header h1 {
+    color: #4667AC;
+    text-align: center;
     margin-top: 60px;
 }
-body {
-    font-family: 'Open Sans', sans-serif;
+.article h2 {
+    color: #4667AC;
 }
 .panel-footer {
     text-align: center;
